@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   
+   <script src="script.js"></script>
+   <script src="https://kit.fontawesome.com/4952c8ae25.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+   <div id="header">
+
+      <div class="container">
+
+         <nav><img src="img/logo.PNG" class="logo">
+            <ul>
+               <li><a href="#header">Home</a></li>
+               <li><a href="#about">About Me</a></li>
+               <li><a href="#services">Services</a></li>
+
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+         </nav>
+         <div class="header_text">
+
+            <p>Web Designer</p>
+            <h1>Hi, I'm &nbsp;<span class="name">Alghubs</span> From India</h1>
+         </div>
+      </div>
+      <!-- -------about------ -->
+   </div>
+   <div id="about">
+      <div class="container">
+         <div class="row">
+            <div class="about-col-1"><img src="img/about.PNG" alt="" class="aboutimg"></div>
+            <div class="about-col-2">
+               <h1 class="aboutsub">About Me</h1>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, corrupti odit minima placeat
+                  soluta fuga id eum facere repudiandae doloremque consequatur nihil esse vero dignissimos? Nesciunt
+                  exercitationem a rerum, voluptas fugit, error eius tempora quo ex asperiores rem tempore? Obcaecati
+                  perspiciatis provident esse aspernatur rem facere facilis ducimus iusto, nostrum explicabo corporis
+                  odio nihil optio pariatur eaque at modi voluptate non error tenetur deserunt. Magni beatae ea et quae
+                  ipsum.</p>
+               <br>
+               <div class="tab_titles">
+
+                  <p class="tab_links active_link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab_links" onclick="opentab('education')">Education</p>
+                  <p class="tab_links" onclick="opentab('experience')">Experience</p>
+               </div>
+               <div class="tab_contents active_tab" id="skills">
+
+                  <ul>
+                     <li><span>Designing</span><br>Designing Web/App interfaces</li>
+                     <li><span>Web Development</span><br>Web App development</li>
+                     <li><span>App Development</span><br>Building Android/ios Apps</li>
+                  </ul>
+               </div>
+               <div class="tab_contents" id="education">
+
+                  <ul>
+                     <li><span>Web Development</span><br>JclickSolutions 2023</li>
+                     <li><span>BE CSE</span><br>UCEN 2018 - 2022</li>
+                     <li><span>App Development1</span><br>Udemy</li>
+                  </ul>
+               </div>
+               <div class="tab_contents" id="experience">
+
+                  <ul>
+                     <li><span>Mobile App Designs</span><br>Designing Mobile App interfaces</li>
+                     <li><span>Dice Project</span><br>Mobile App</li>
+                     <li><span>Guess My number Project</span><br>JavaScript Course in Udemy</li>
+                  </ul>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+
+   <!-- -------services------ -->
+
+
+   <div id="services">
+      <div class="container">
+         <h1 class="aboutsub">My Services</h1>
+         <div class="services_list">
+            <div>
+               <i class="fa-solid fa-code"></i>
+               <h1>Web Design</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit placeat, rerum sequi debitis
+                  excepturi unde sit laboriosam rem at quis sunt veniam autem eius soluta eligendi deserunt! Dolore, eum
+                  porro.</p>
+               <a href="#">Learn More</a>
+            </div>
+            <div>
+               <i class="fa-sharp fa-solid fa-crop"></i>
+               <h1>Web Development</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit placeat, rerum sequi debitis
+                  excepturi unde sit laboriosam rem at quis sunt veniam autem eius soluta eligendi deserunt! Dolore, eum
+                  porro.</p>
+               <a href="#">Learn More</a>
+            </div>
+            <div>
+               <i class="fa-brands fa-app-store"></i>
+               <h1>App Development</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit placeat, rerum sequi debitis
+                  excepturi unde sit laboriosam rem at quis sunt veniam autem eius soluta eligendi deserunt! Dolore, eum
+                  porro.</p>
+               <a href="#">Learn More</a>
+            </div>
+         </div>
+
+
+      </div>
+
+   </div>
+
+   <!-- -------Contact------ -->
+
+   <div id="contact">
+      <div class="container">
+         <div class="row">
+            <div class="contact-left">
+               <h1 class="aboutsub">Contact me</h1>
+               <p><i class="fa-regular fa-envelope"></i>example@gmail.com</p>
+               <p><i class="fa-solid fa-phone"></i>1234567890</p>
+               <div class="social-icons">
+                  <a href="https://github.com/Alghubs200"><i class="fa-brands fa-github"></i></a>
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+               </div>
+               <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+               <form>
+                  <input type="text" name="Name" placeholder="Your Name">
+                  <input type="email" name="email" placeholder="Your Email">
+                  <input type="text" name="Name" placeholder="Your Name">
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn submit" >Submit</button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+
+</body>
+
+</html>
